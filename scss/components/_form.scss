@@ -1,0 +1,43 @@
+.find-us-section {
+  padding-bottom: 95px;
+}
+
+.find-us__form-field {
+  margin-bottom: 16px;
+}
+
+.form-field {
+  margin-bottom: 24px;
+  width: 310px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 18px 32px;
+  color: var(--color-primary-white);
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-privacy-grey);
+  font-size: 13px;
+}
+
+.form-input:focus {
+  background-color: var(--color-privacy-grey);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--color-primary-white);
+}
+
+.find-us-section__privacy {
+  max-width: 205px;
+  text-align: center;
+  color: #747272;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.find-us-section__button {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,63 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 31, 74, 0.4);
+  z-index: 10;
+}
+.modal {
+  text-align: center;
+  max-width: 720px;
+  max-height: 680px;
+  background-color: var(--color-primary-dark);
+  border-radius: 48px;
+  padding: 50px 75px;
+  background-image: url(/img/modal-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &__icon-close {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    cursor: pointer;
+    stroke: var(--color-privacy-grey);
+    fill: none;
+  }
+
+  &__icon-close:hover {
+    stroke: var(--color-primary-brand);
+  }
+
+  &__form-title {
+    color: var(--color-primary-white);
+    max-width: 435px;
+  }
+
+  &__registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__form-title-second {
+    color: var(--color-primary-white);
+    max-width: 275px;
+  }
+
+  &__form-field {
+    padding-bottom: 24px;
+  }
+
+  &__privacy {
+    margin-top: 8px;
+    max-width: 205px;
+  }
+}

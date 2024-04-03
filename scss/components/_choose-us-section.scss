@@ -1,0 +1,52 @@
+.choose-us-section {
+  margin-top: 0;
+  padding: 175px 0 100px 0;
+  background: url(/img/choose-us-background.png) 0 0 / cover no-repeat;
+  /* background-repeat: no-repeat; */
+  /* width: 100%;
+    height: 100%;
+    background-size: cover; */
+  /* background-position: center;  */
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    max-width: 450px;
+    text-align: center;
+  }
+
+  &__card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+  }
+
+  &__card {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.3;
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 24px 32px;
+  }
+
+  &__icon-link {
+    fill: var(--color-primary-brand);
+    margin-bottom: 8px;
+
+    &:hover {
+      fill: var(--color-primary-dark);
+    }
+  }
+
+  &__card-icon {
+    margin-bottom: 8px;
+  }
+}

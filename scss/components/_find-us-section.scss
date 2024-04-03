@@ -1,0 +1,89 @@
+.find-us-section {
+  padding-bottom: 95px;
+
+  &__find-us-content {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__map {
+    width: 100%;
+    height: 100%;
+    width: 605px;
+    height: 481px;
+    border-radius: 32px;
+  }
+
+  &__form {
+    width: 425px;
+    height: 480px;
+    background-color: var(--color-primary-dark);
+    background-image: url(/img/find-us-form-bg.png);
+    background-repeat: repeat;
+    border-radius: 32px;
+    padding: 48px 57px 2px 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__form-title {
+    max-width: 280px;
+    color: var(--color-primary-white);
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  &__find-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__form-field {
+    max-width: 310px;
+    margin-bottom: 16px;
+  }
+
+  &__form-input {
+    width: 100%;
+    padding: 18px 32px;
+    color: var(--color-primary-white);
+    background-color: transparent;
+    border-radius: 32px;
+    border: 2px solid var(--color-privacy-grey);
+    font-size: 13px;
+
+    &:focus {
+      background-color: var(--color-privacy-grey);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-primary-white);
+    }
+  }
+
+  &__privacy {
+    max-width: 205px;
+    text-align: center;
+    color: #747272;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  &__button {
+    margin-bottom: 8px;
+  }
+}

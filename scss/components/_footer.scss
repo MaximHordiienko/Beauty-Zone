@@ -1,0 +1,91 @@
+.footer {
+  background-color: #011c44;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 16px;
+  padding-top: 56px;
+  position: relative;
+
+  &__link {
+    color: #fff;
+    transition: color 0.3s;
+  }
+
+  &__link a {
+    color: var(--color-primary-white);
+    transition: color 0.3s;
+    &:hover {
+      color: var(--color-primary-brand);
+    }
+  }
+
+  &__contacts-link a {
+    color: var(--color-primary-white);
+    transition: color 0.3s;
+  }
+
+  &__contacts-link a:hover {
+    color: var(--color-primary-brand);
+  }
+
+  &__icon-link {
+    fill: var(--color-primary-white);
+    transition: fill 0.3s;
+  }
+
+  &__icon-link:hover {
+    fill: var(--color-primary-brand);
+  }
+
+  &__privacy-link {
+    color: var(--color-primary-white);
+    border: none;
+    font-size: 16px;
+  }
+
+  &__privacy__text {
+    font-size: 13px;
+  }
+
+  &__container {
+    padding-bottom: 56px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 186px;
+  }
+
+  &__logo,
+  &__menu,
+  &__adress,
+  &__contacts-link {
+    flex-grow: 1;
+  }
+
+  &__link {
+    margin-bottom: 16px;
+  }
+
+  &__contacts-link {
+    margin-bottom: 16px;
+    max-width: 210px;
+  }
+
+  &__contacts-link a {
+    margin-right: 24px;
+  }
+
+  &__privacy-text {
+    margin-top: 16px;
+    color: var(--color-privacy-grey);
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

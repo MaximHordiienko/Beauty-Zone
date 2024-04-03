@@ -1,0 +1,16 @@
+.privacy {
+  color: var(--color-privacy-grey);
+  font-size: 12px;
+}
+
+.privacy-link {
+  color: var(--color-privacy-grey);
+  border-bottom: solid 1px var(--color-privacy-grey);
+  transition: color 0.3s;
+}
+
+.privacy-link:hover {
+  cursor: pointer;
+  color: var(--color-primary-brand);
+  border: none;
+}

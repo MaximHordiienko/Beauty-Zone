@@ -1,0 +1,84 @@
+.reincarnation-section {
+  padding-top: 25px;
+
+  &__container {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    max-width: 1240px;
+    height: 650px;
+  }
+
+  &__content {
+    max-width: 690px;
+  }
+
+  &__content,
+  &__img-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  &__title {
+    max-width: 530px;
+  }
+
+  &__firts-text {
+    margin-bottom: 40px;
+    max-width: 700px;
+  }
+
+  &__second-text {
+    max-width: 710px;
+  }
+
+  &__content p {
+    color: var(--color-primary-dark);
+    font-size: 22px;
+    line-height: 1.7;
+  }
+
+  &__second-text-bolt {
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  &__img-wrapper {
+    max-height: 700px;
+    height: 100%;
+  }
+
+  &__top-face {
+    position: absolute;
+    top: -20px;
+    right: 172px;
+  }
+
+  &__bottom-face {
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+  }
+
+  &__star-average {
+    position: absolute;
+    top: 32px;
+    right: 0;
+  }
+
+  &__star-small {
+    position: absolute;
+    top: 240px;
+    right: 30px;
+  }
+
+  &__star-big {
+    position: absolute;
+    top: 336px;
+    right: 400px;
+  }
+
+  &__woman-face {
+    border-radius: 50%;
+  }
+}

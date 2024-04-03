@@ -1,0 +1,12 @@
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+$bp-mobile: 480px;
+$bp-mobile: 768px;
+$bp-mobile: 1280px;
